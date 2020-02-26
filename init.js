@@ -1,5 +1,5 @@
 window.onload = () => {
-  debugger;
+  //debugger;
   // render initial state
   document.getElementById('input').value = numbers.current;
   document.getElementById('biggest').innerHTML = numbers.biggest;

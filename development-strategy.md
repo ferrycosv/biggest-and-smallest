@@ -12,17 +12,11 @@ Building this site one step at a time
 
 ## 2. Init
 
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * init.js
+> * contains the code executed when the browser loads the webpage, renders the initial state of the data object 'numbers' to the screen by html tags, logs the initial operation as first record in the log array.
 
-## 3. User Story: ___
+## 3. User Story: Save button
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
-
-## 4. User Story: ___
-
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * Makes sense to start coding the save function to grab and store the values from the html input and perform the logic to update the information of the data object.
+> * save-number.js
+> * read the user input from the html input element, read the current state of the numbers data object and perform the update of the data object and render the last state to screen.
